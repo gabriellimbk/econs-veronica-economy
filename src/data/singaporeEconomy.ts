@@ -31,8 +31,8 @@ export const milestones: EconomicMilestone[] = [
     description: "The Economic Development Board was established to lead Singapore's industrialization drive.",
     category: 'Policy',
     icon: 'Building2',
-    imageUrl: timelineImage('1961.png'),
-    imagePosition: 'center 35%'
+    imageUrl: timelineImage('1961.jpeg'),
+    imagePosition: 'center 22%'
   },
   {
     year: 1965,
