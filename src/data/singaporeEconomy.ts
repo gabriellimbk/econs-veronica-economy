@@ -22,6 +22,8 @@ export interface SectorData {
   others: number;
 }
 
+const timelineImage = (fileName: string) => `${import.meta.env.BASE_URL}timeline-images/${fileName}`;
+
 export const milestones: EconomicMilestone[] = [
   {
     year: 1961,
@@ -29,7 +31,7 @@ export const milestones: EconomicMilestone[] = [
     description: "The Economic Development Board was established to lead Singapore's industrialization drive.",
     category: 'Policy',
     icon: 'Building2',
-    imageUrl: '/timeline-images/1961.png',
+    imageUrl: timelineImage('1961.png'),
     imagePosition: 'center 35%'
   },
   {
@@ -38,7 +40,7 @@ export const milestones: EconomicMilestone[] = [
     description: "Singapore separated from Malaysia, facing high unemployment and lack of natural resources.",
     category: 'Policy',
     icon: 'Flag',
-    imageUrl: '/timeline-images/1965.png',
+    imageUrl: timelineImage('1965.png'),
     imagePosition: 'center 25%'
   },
   {
@@ -47,7 +49,7 @@ export const milestones: EconomicMilestone[] = [
     description: "JTC was formed to develop industrial estates, starting with Jurong.",
     category: 'Policy',
     icon: 'Factory',
-    imageUrl: '/timeline-images/1968.png',
+    imageUrl: timelineImage('1968.png'),
     imagePosition: 'center 30%'
   },
   {
@@ -56,7 +58,7 @@ export const milestones: EconomicMilestone[] = [
     description: "Global oil prices spiked, testing Singapore's resilience as a refining hub.",
     category: 'Global',
     icon: 'Fuel',
-    imageUrl: '/timeline-images/1973.png',
+    imageUrl: timelineImage('1973.png'),
     imagePosition: 'center 35%'
   },
   {
@@ -65,7 +67,7 @@ export const milestones: EconomicMilestone[] = [
     description: "Singapore experienced its first major economic contraction, leading to a shift towards high-value manufacturing.",
     category: 'Crisis',
     icon: 'TrendingDown',
-    imageUrl: '/timeline-images/1985.png',
+    imageUrl: timelineImage('1985.png'),
     imagePosition: 'center 25%'
   },
   {
@@ -82,7 +84,7 @@ export const milestones: EconomicMilestone[] = [
     description: "A major push to make Singapore a global hub for biomedical sciences.",
     category: 'Innovation',
     icon: 'Dna',
-    imageUrl: '/timeline-images/2000.png',
+    imageUrl: timelineImage('2000.png'),
     imagePosition: 'center 30%'
   },
   {
