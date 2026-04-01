@@ -71,7 +71,7 @@ export const Timeline: React.FC = () => {
             className="grid grid-cols-1 md:grid-cols-[1fr_380px] gap-6 md:gap-8 items-center h-full"
           >
             <div className="space-y-3">
-              <div className="inline-block px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-400 text-[10px] md:text-xs font-mono mb-2">
+              <div className="inline-block px-4 py-1.5 rounded-full bg-emerald-500/20 text-emerald-400 text-xs md:text-sm font-mono mb-2">
                 {activeMilestone.category}
               </div>
               <h3 className="text-5xl md:text-6xl font-sans font-black mb-1 leading-none">{activeMilestone.year}</h3>
